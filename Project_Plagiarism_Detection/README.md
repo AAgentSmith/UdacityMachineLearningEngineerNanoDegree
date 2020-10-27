@@ -2,6 +2,11 @@
 
 This repository contains code and associated files for deploying a plagiarism detector using AWS SageMaker.
 
+Project and data used are based on the study performed by Paul Clough (Information Studies) and Mark Stevenson (Computer Science), at the University of Sheffield.
+Article of the original study: https://s3.amazonaws.com/video.udacity-data.com/topher/2019/January/5c412841_developing-a-corpus-of-plagiarised-short-answers/developing-a-corpus-of-plagiarised-short-answers.pdf
+
+Data is a slightly modified version of a dataset created by Paul Clough and Mark Stevenson for their study.
+
 ## Project Overview
 
 In this project, you will be tasked with building a plagiarism detector that examines a text file and performs binary classification; labeling that file as either *plagiarized* or *not*, depending on how similar that text file is to a provided source text. Detecting plagiarism is an active area of research; the task is non-trivial and the differences between paraphrased answers and original work are often not so obvious.
